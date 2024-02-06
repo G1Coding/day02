@@ -76,7 +76,6 @@ public class Ex08 {
 		
 		d = a++ + ++c - b--;
 		System.out.println(a+ ","+b+","+c+ ","+ d);
-		System.out.println();
 		
 		System.out.println("====삼항 연산자(조건연산자)====");
 		n1 = 20;
