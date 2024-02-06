@@ -81,7 +81,7 @@ public class Ex08 {
 		n1 = 20;
 		n2 = 10;
 		String result;
-		result = (n1>n2)?"참인 경우": "거짓인 경우";
+		result = (n1>n2)?"참인 경우 입니다": "거짓인 경우 입니다";
 		System.out.println( result );
 		
 		
