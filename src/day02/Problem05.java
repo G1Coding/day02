@@ -25,6 +25,7 @@ public class Problem05 {
 		
 		
 		System.out.println("표준 체충은 "+ sWeight + "이고 비만도는 " + sb.toString() +"입니다");
+		System.out.printf("표준 체충은 "+ sWeight + "이고 비만도는 %.2f입니다" , fatPercent);
 		
 	}
 }

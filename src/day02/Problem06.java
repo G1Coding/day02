@@ -28,6 +28,7 @@ public class Problem06 {
 		System.out.println("이름 \t국어 \t영어 \t수학 \t합계 \t평균 \t");
 		System.out.println("-----------------------------------------------");
 		System.out.println(name +"\t"+ korScore +"\t"+ engScore +"\t"+ mathScore +"\t"+ finalScore +"\t"+ sb.toString());
+		System.out.printf(name +"\t"+ korScore +"\t"+ engScore +"\t"+ mathScore +"\t"+ finalScore +"\t"+ "%.2f", average);
 
 	}
 }
